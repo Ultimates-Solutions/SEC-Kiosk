@@ -9,6 +9,10 @@
   --secondary-color: rgba(255, 234, 217, 1);
 }
 
+.bottom-logo {
+  top: 175px;
+}
+
 .bg-info {
   background-color: rgba(25, 178, 153, 1) !important;
 }
@@ -28,9 +32,24 @@ body {
   overflow: hidden;
 }
 
-.logo-img {
+.main-logo-img {
   max-width: 387px;
   max-height: 119px;
+}
+
+.step-logo-img {
+  max-width: 321.33px;
+  min-height: 100px;
+}
+
+.print-logo {
+  max-width: 55.76px;
+  min-height: 56px;
+}
+
+.card-logo {
+  max-width: 56px;
+  min-height: 56px;
 }
 
 .main-container .background::before {
@@ -61,7 +80,8 @@ button {
 
 .print-btn,
 .id-card-btn,
-.re-print-btn {
+.re-print-btn,
+.re-connect-btn {
   padding: 24px, 0px, 24px, 0px;
   border-radius: 20px;
   display: flex;
@@ -123,6 +143,11 @@ h6 {
   font-size: 20px;
 }
 
+.otp-timer {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .otp-input-size {
   width: 96px;
   height: 96px;
@@ -151,13 +176,22 @@ h6 {
   margin: auto;
 }
 
+.re-connect-btn {
+  width: 186px;
+  height: 62px;
+  margin: auto;
+}
+
 .print-btn {
   background-color: var(--primary-color);
   color: #ffffff;
 }
 
+
+
 .id-card-btn,
-.re-print-btn {
+.re-print-btn,
+.re-connect-btn {
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
